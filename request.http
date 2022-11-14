@@ -1,0 +1,6 @@
+### GET ORDER LIST
+GET http://localhost:3000/order
+
+
+### GET Spesific Order
+GET http://localhost:3000/order/JASON

@@ -1,0 +1,10 @@
+#	Please create query in postgreSQL or MySQL to get total price 
+for each order
+
+SELECT 
+  name,
+  orderType,
+  SUM(od.price * od.qty) as TotalPrice
+from 
+orders o
+INNER JOIN order_details od ON o.id = od.orderId 

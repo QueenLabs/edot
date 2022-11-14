@@ -1,0 +1,41 @@
+{
+    "JASON": {
+        "name": "JASON",
+        "discount": 10,
+        "orderType": "Take Away",
+        "items": [
+            {
+                "item": "Hot Chicken",
+                "price": 30,
+                "qty": 3
+            },
+            {
+                "item": "Lava Toast",
+                "price": 15,
+                "qty": 2
+            },
+            {
+                "item": "Cola",
+                "price": 5,
+                "qty": 5
+            }
+        ]
+    },
+    "DAVID": {
+        "name": "DAVID",
+        "discount": 10,
+        "orderType": "Take Away",
+        "items": [
+            {
+                "item": "Fire Wings",
+                "price": 15,
+                "qty": 2
+            },
+            {
+                "item": "Sundae floats",
+                "price": 15,
+                "qty": 1
+            }
+        ]
+    }
+}
